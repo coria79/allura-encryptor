@@ -1,0 +1,153 @@
+body{
+    height: 100vh;
+    background-color: #f2f5fc;
+}
+
+main{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    margin: 30px auto;
+}
+.img-logo-alura{
+    background-color: #f2f5fc;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: auto;
+}
+
+.div-original{
+    width: 66%;
+    height: 100%;
+    background-color: #f2f5fc;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.txt-area-original{
+    width: 90%;
+    height: 100%;
+    margin: 60px auto;
+    border-radius: 15px;
+    resize: none;
+    background-color: #f2f5fc;
+    /*border-color: #f2f5fc;*/
+    /*border-color: grey;*/
+    border-color: transparent;
+    outline: none;
+    color: #0A3971;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+::placeholder{
+    color:#0A3971
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-aviso{
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.div-original-buttons{
+    width: 85%;
+    display: flex;
+    /*flex-direction:row;*/
+    justify-content:center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-encrypt{
+    width: 45%;
+    height: 175%;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: #0A3971;
+    color: white;
+    margin-right: 2%;
+}
+
+.btn-decrypt{
+    width: 45%;
+    height: 175%;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: #f2f5fc;
+    color: #0A3971;
+}
+.div-encrypted{
+    width: 33%;
+    height: 100%;
+    /*background-color: #f2f5fc;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    /*border-color: lightgrey;*/
+}
+
+.txt-area-encrypted{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    border-radius: 15px;
+    resize: none;
+    background-color: white;
+    /*border-color: white;*/
+    /*border-color: grey;*/
+    border-color: transparent;
+    outline: none;
+    color: grey;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.div-encrypted-buttons{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-copy{
+    width: 80%;
+    height: 175%;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: white;
+    color: #0A3971;
+}
+
+.div-footer{
+    width: 100%;
+}
+
+.p-footer{
+    text-align: center;
+    height: 20vh;
+    background-color: #f2f5fc;
+    /*background-color: black;*/
+    /*color: black;*/
+    /*color: white;*/
+    margin: 100px auto;
+}
+
+.p-footer a{
+    text-decoration: none;
+    color: inherit;
+}
