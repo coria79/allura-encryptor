@@ -267,8 +267,6 @@ document.addEventListener('DOMContentLoaded', function(){
             document.getElementById('p1-nothing').textContent = "No message was found.";
             document.getElementById('p2-nothing').textContent = "Enter the text you want to encrypt or decrypt.";
         }
-
-
     });
 
     btnPortuguese.addEventListener('click', function(){
@@ -285,7 +283,6 @@ document.addEventListener('DOMContentLoaded', function(){
             document.getElementById('p1-nothing').textContent = "Nenhuma mensagem foi encontrada.";
             document.getElementById('p2-nothing').textContent = "Digite o texto que deseja criptografar ou descriptografar.";
         }
-
     });
 
 });
