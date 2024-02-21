@@ -35,6 +35,27 @@ function encrypt(txt){
         }
     }
     return encryptedTxt;
+
+    /*
+    Teacher's solution.
+
+    const matiz_code = [
+        ["u","ufat"], // indice 4
+    ];
+
+    for (let i = 0; i < matiz_code.length; i++){
+        if (fraseEncriptada.includes(matiz_code[i][0])){
+            fraseEncriptada = fraseEncriptada.replaceAll(
+            matriz_code[i][0],
+            matriz_code[i][1]
+            );
+        }
+    }
+
+    Why choose my solution? Only 5 elements, very easy to handle with only a "for" an "or" and a "switch".
+    Teacher's solution. For more elements it's the best option.
+
+    */
 }
 
 function decrypt(txt){
