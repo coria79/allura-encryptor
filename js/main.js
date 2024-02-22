@@ -82,9 +82,11 @@ function decrypt(txt){
 
 function nothingToEncrypt(colourFlag){
     /*
-     * Replaces a text area for a div with an img and two p tags.
+     * Replaces "dynamically" a text area for a div with an img and two p tags.
      * @param {} Receives nothing.
      * @returns {} After creating the new elements returns nothing.
+     * 
+     * (Would it be better to hide or show the elements instead of creating them dynamically?)
     */
 
     let textareaEncrypted = document.getElementById("txt-area-encrypted"); // The html textarea to a let textareaEncrypted.

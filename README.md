@@ -1,7 +1,10 @@
 # Legal Disclaimer:
 
-All the images used on this website, including the "Alura" logo and the image used for "No messages were found," are the property of their respective owners and are used solely for educational and demonstrative purposes. We acknowledge and respect the copyright of their respective owners/creators.  
-We have no intention to infringe upon the copyright of any individual or entity. If the owner of any of the images used on this website wishes for them to be removed, please contact us, and we will take immediate action to remove them. This website is a learning project aimed at demonstrating web development skills using HTML, CSS, and JavaScript. Thank you for your understanding.
+All the images used on this website, including the "Alura" logo and the image used for "No messages were found," are the property of their respective owners and are used solely for educational and demonstrative purposes. We acknowledge and respect the copyright of their respective owners/creators.
+
+We have no intention to infringe upon the copyright of any individual or entity. If the owner of any of the images used on this website wishes for them to be removed, please contact us, and we will take immediate action to remove them. This website is a learning project aimed at demonstrating web development skills using HTML, CSS, and JavaScript.
+
+Thank you for your understanding.
 
 # Thanks to:
 

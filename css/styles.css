@@ -11,6 +11,7 @@ h1{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 /* MAIN */
@@ -90,21 +91,29 @@ main{
 
 .btn-encrypt{
     width: 45%;
-    height: 175%;
+    height: 100%;
     border-radius: 10px;
     border-color: lightgrey;
     background-color: #0A3971;
     color: white;
     margin-right: 2%;
+    padding: 12px 5px 12px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-decrypt{
     width: 45%;
-    height: 175%;
+    height: 100%;
     border-radius: 10px;
     border-color: #A3B4CA;
     background-color: #f2f5fc;
     color: #0A3971;
+    padding: 12px 5px 12px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-encrypted{
@@ -161,6 +170,8 @@ main{
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
 }
 
 .p-footer{
